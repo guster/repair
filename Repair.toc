@@ -1,9 +1,9 @@
-## Interface: 40100
+## Interface: 40200
 
 ## Title: Repair
 ## Notes: Auto-repair all damaged items when visiting a vendor.
 ## Author: Guster
-## Version: 1.0.0
+## Version: 1.1.0
 ## X-Website: https://github.com/guster/repair
 ## X-Email: gustertheshaman@gmail.com
 ## X-Category: Inventory

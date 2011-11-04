@@ -5,7 +5,8 @@ f:SetScript("OnEvent", function ()
   if canRepair then
     local canGuildRepair = CanGuildBankRepair()
     
-    if canGuildRepair and cost > GetGuildBankWithdrawMoney() then
+    if canGuildRepair and
+        (cost > GetGuildBankWithdrawMoney() or cost > GetGuildBankMoney()) then
       canGuildRepair = nil
     end
     
